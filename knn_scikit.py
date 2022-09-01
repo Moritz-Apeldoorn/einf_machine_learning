@@ -16,4 +16,4 @@ classifier = neigh.KNeighborsClassifier(n_neighbors=3)
 # Hier wird das Programm aufgebaut
 classifier.fit(matrix_x, vector_y)
 #Hier wird das Programm aktiviert
-print(classifier.predict(numpy.array([1, 2, 3, 4]).reshape((1, 4))))
+print(classifier.predict(numpy.array([1, 2, 3, 4]).reshape((1, 4)))[0])
