@@ -1,4 +1,6 @@
-import pandas, numpy, statistics
+import pandas
+import numpy
+import statistics
 data_set = pandas.read_csv("iris.csv")
 matrix_x = data_set.iloc[0:150, 0:4].values
 vector_y = data_set.iloc[0:150, 4].values
